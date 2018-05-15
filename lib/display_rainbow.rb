@@ -1,4 +1,4 @@
-# Write your #display_rainbow method here
+# Write your #display_rainbow method 
 def display_rainbow(colors)
-  colors.each{ |color| print "#{color[0].upcase}: #{color}, "}
+  colors.length.times do { |index| index == colors.length - 1 ? puts "#{colors[index][0].upcase}: #{colors[index]}": print "#{colors[index][0].upcase}: #{colors[index]}, "}
 end
