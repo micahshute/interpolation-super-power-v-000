@@ -5,3 +5,6 @@ def display_rainbow(colors)
     puts index
   end
 end
+
+
+display_rainbow(['red', 'blue'])
