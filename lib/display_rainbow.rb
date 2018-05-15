@@ -4,6 +4,3 @@ def display_rainbow(colors)
     print index == colors.length - 1 ? "#{colors[index][0].upcase}: #{colors[index]}" + "\n" : "#{colors[index][0].upcase}: #{colors[index]}, "
   end
 end
-
-
-display_rainbow(['red', 'blue'])
